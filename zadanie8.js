@@ -2,24 +2,17 @@
 
 
 let massivMap = new Map([
-    ["car", "toyota"],
-    ["engine", "1.6 gasoline"],
-    ["gear", "six steps robotic"],
-    ["wheels", "all season, micheline"],
-    ["color", "red"],
-    ["model", "corolla"],
-    ["sterring wheel", "left"]
+ ["car", "toyota"], 
+  ["engine", "1.6 gasoline"], 
+  ["gear", "six steps robotic"], 
+  ["wheels", "all season, micheline"], 
+  ["color", "red"], 
+  ["model", "corolla"], 
+  ["sterring wheel", "left"]
 ]);
 
-let name;
-let color;
-// console.log(`Ключ:- ${map.get(name)}, значение:- ${map.get("")}`);
 
+for (let name of massivMap.keys()) {
+    console.log(`Ключ:- ${name}, значение:- ${massivMap.get(name)}`); 
 
-
-
-
-for (let elem of massivMap) {
-
-    console.log(`Ключ:- ${elem} - значение, `);
 }
